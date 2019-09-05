@@ -7,6 +7,7 @@ import './App.css';
 import LandingView from './views/LandingView'
 import HowItWorksView from './views/HowItWorksView'
 import AboutUs from './views/AboutUs'
+import LeaderboardView from './views/LeaderboardView'
 
 function App(props) {
   return (
@@ -14,6 +15,7 @@ function App(props) {
       <Route exact path ="/" component={LandingView}/>
       <Route path = "/howitworks" component={HowItWorksView}/>
       <Route path='/about' component={AboutUs}/>
+      <Route path ='/leaderboard' component={LeaderboardView}/>
     </div>
   );
 }
