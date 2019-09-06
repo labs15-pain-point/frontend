@@ -9,13 +9,12 @@ const ImageLog = styled.img`
 `
 
 const AboutMe = props => {
-    console.log(props)
     return (
         <div>
             <h3>{props.member.name}</h3>
             <p>{props.member.about}</p>
-            <a href={props.member.linkedin} target='_blank'><ImageLog src={linked} alt=''/></a>
-            <a href={props.member.github} target='_blank'><ImageLog src={github} alt=''/></a>
+            <a href={props.member.linkedin} target='_blank' rel='noopener noreferrer'><ImageLog src={linked} alt=''/></a>
+            <a href={props.member.github} target='_blank' rel='noopener noreferrer'><ImageLog src={github} alt=''/></a>
         </div>
     )
 }

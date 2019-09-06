@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { NavLink } from 'react-router-dom'
 
 import HowItWorksIntro from '../components/HowItWorksIntro'
 import HowItWorksData from '../components/HowItWorksData'
@@ -12,9 +11,6 @@ const HowItWorksView = props => {
 
     return (
         <HowItWorksContainer>  
-            <NavLink exact activeClassName='activeNavButton' to='/'>
-                Home
-            </NavLink>  
             <HowItWorksIntro />
             <HowItWorksData />
             <HowItWorksGPT2 />

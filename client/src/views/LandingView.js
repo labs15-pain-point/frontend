@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 import styled from 'styled-components'
 
 import useGet from '../functions/useGet'
 
+import handshake from '../imgs/money_idea.png'
 import SmallExplantion from '../components/SmallExplanation'
 import RandomDescription from '../components/RandomDescription'
 import VotingComponent from '../components/VotingComponent'
@@ -41,28 +41,8 @@ const LandingView = props => {
 
     return (
       <LandingContainer>  
-
-        <ul className="navbar">
-            <NavLink exact activeClassName='activeNavButton' to='/'>
-              Home
-            </NavLink>
-            <br></br>
-            <NavLink activeClassName='activeNavButton' to='/howitworks'>
-              How It Works
-            </NavLink>
-            <br></br>
-            <NavLink activeClassName='activeNavButton' to='/leaderboard'>
-              Leaderboard
-            </NavLink>
-            <br></br>
-            <NavLink activeClassName='activeNavButton' to='/about'>
-              About Us
-            </NavLink>
-        </ul>
-
           <SmallExplantion />
-          <br></br>
-          <br></br>
+          <img src={handshake} alt=""/>
           <RandomDescription company={company}/>
           <VotingComponent 
               id={company.id} 
@@ -77,6 +57,9 @@ const LandingView = props => {
 const LandingContainer = styled.div`
     text-align: center;
     color: black;
+    width: 75%;
+    margin-left: 12.5%;
+    padding-bottom: 100px;
 `
 
 export default LandingView
