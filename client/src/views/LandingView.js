@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 import styled from 'styled-components'
 
@@ -39,22 +40,43 @@ const LandingView = props => {
 
 
     return (
-        <LandingContainer>   
-            <SmallExplantion />
-            <RandomDescription company={company}/>
-            <VotingComponent 
-                id={company.id} 
-                handleUpvote={handleUpvote} 
-                handlePass={handlePass} 
-                handleDownvote={handleDownvote}
-            />
+      <LandingContainer>  
+
+        <ul className="navbar">
+            <NavLink exact activeClassName='activeNavButton' to='/'>
+              Home
+            </NavLink>
+            <br></br>
+            <NavLink activeClassName='activeNavButton' to='/howitworks'>
+              How It Works
+            </NavLink>
+            <br></br>
+            <NavLink activeClassName='activeNavButton' to='/leaderboard'>
+              Leaderboard
+            </NavLink>
+            <br></br>
+            <NavLink activeClassName='activeNavButton' to='/about'>
+              About Us
+            </NavLink>
+        </ul>
+
+          <SmallExplantion />
+          <br></br>
+          <br></br>
+          <RandomDescription company={company}/>
+          <VotingComponent 
+              id={company.id} 
+              handleUpvote={handleUpvote} 
+              handlePass={handlePass} 
+              handleDownvote={handleDownvote}
+          />
         </LandingContainer>
     )
 }
 
 const LandingContainer = styled.div`
     text-align: center;
-    color: red;
+    color: black;
 `
 
 export default LandingView

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import AboutMe from '../components/AboutMe'
 
 const teamMembers = [
@@ -45,7 +46,10 @@ const teamMembers = [
 
 const AboutUs = props => {
     return(
-        <div> 
+        <div>
+            <NavLink exact activeClassName='activeNavButton' to='/'>
+              Home
+            </NavLink> 
             {teamMembers.map(member => {
                 return <AboutMe member={member} />
             })}

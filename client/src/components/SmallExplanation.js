@@ -10,13 +10,6 @@ const SmallExplanation = props => {
                and upvote the moonshots!</p>
 
             <p>Thanks for visiting and good luck in finding your next unicorn idea!</p>
-            
-            <ul>
-                <li>Step 1</li>
-                <li>Step 2</li>
-                <li>Step 3</li>
-            </ul>
-
         </div>
     )
 }

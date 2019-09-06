@@ -1,5 +1,6 @@
 //import statements
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import useGet from '../functions/useGet'
 import LeaderboardComponent from '../components/LeaderboardComponent'
 
@@ -10,6 +11,9 @@ const Leaderboard = props => {
     console.log(leaderboard)
     return (
         <div>
+            <NavLink exact activeClassName='activeNavButton' to='/'>
+              Home
+            </NavLink> 
             <LeaderboardComponent leaderboard = { leaderboard }/>
         </div>
     )
