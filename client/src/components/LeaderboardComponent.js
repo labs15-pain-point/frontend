@@ -29,7 +29,7 @@ const LeaderboardContainer = styled.div`
         padding: 7px;
         margin: -3px;
         box-shadow: inset 0 0 2px 2px #888
-        font-size: 125%
+        font-size: 2rem;
         border: 10px solid #09547c;
         background-color: hsl(0, 0%, 33%, .25);
     }
