@@ -1,13 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
+import logoWhite from '../imgs/99LogoWithTextWhite.png'
 
 
 const Header = props => {
     return (
         <StyledNav>
             <div classname="logo">
-                <h1>99 Problems</h1>
+                <img src={logoWhite} alt="99 Logo White" width="250"/>
             </div>
             <div>
                 <NavLink to="/">Home</NavLink>
@@ -15,7 +16,6 @@ const Header = props => {
                 <NavLink to="/howitworks">How It Works</NavLink>
                 <NavLink to="/about">About Us</NavLink>
             </div>
-            
         </StyledNav>
       
     )
@@ -28,27 +28,22 @@ const StyledNav = styled.div`
     width: 100%; 
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     margin-bottom: 50px;
     padding: 0 3% 0 3%;
-    h1 {
-        color: white;
-        font-weight: bold;
-    }
     a {
-        color: #f2f2f2;
+        color: #ffffff;
         text-align: center;
-        padding: 14px 16px;
+        padding: 14px ;
         text-decoration: none;
+        font-size: 125%
+        font-weight: bold;
         &:hover {
-            background: #ddd;
+            background: #545454;
             color: black;
         }
     }
 
 `
-
-
-
 
 export default Header

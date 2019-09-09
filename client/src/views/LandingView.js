@@ -4,7 +4,6 @@ import styled from 'styled-components'
 
 import useGet from '../functions/useGet'
 
-import handshake from '../imgs/money_idea.png'
 import SmallExplantion from '../components/SmallExplanation'
 import RandomDescription from '../components/RandomDescription'
 import VotingComponent from '../components/VotingComponent'
@@ -42,7 +41,6 @@ const LandingView = props => {
     return (
       <LandingContainer>  
           <SmallExplantion />
-          <img src={handshake} alt=""/>
           <RandomDescription company={company}/>
           <VotingComponent 
               id={company.id} 
