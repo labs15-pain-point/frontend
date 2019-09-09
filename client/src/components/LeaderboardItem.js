@@ -3,7 +3,7 @@ import React from 'react';
 const LeaderboardItem = props => {
     return (
         <div>
-            <p>{props.idx}. - { props.highScore.description }</p>
+            <p>{ props.highScore.description } </p>
         </div>
     )
 }
