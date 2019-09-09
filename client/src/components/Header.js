@@ -30,18 +30,22 @@ const StyledNav = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
-    padding: 0 3% 0 3%;
+    padding: 1% 3% 1% 3%;
+    opacity: .9;
     a {
         color: #ffffff;
         text-align: center;
         padding: 14px ;
         text-decoration: none;
-        font-size: 125%
+        font-size: 2.4rem;
         font-weight: bold;
         &:hover {
             background: #545454;
             color: black;
         }
+    }
+    img {
+        width: 35%;
     }
 
 `

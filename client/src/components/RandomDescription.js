@@ -19,7 +19,7 @@ const Description = styled.p`
     margin-left: 4%
     margin-right: 4%
     box-shadow: inset 0 0 2px 2px #888;
-    font-size: 125%;
+    font-size: 3rem;
 `
 
 export default RandomDescription
