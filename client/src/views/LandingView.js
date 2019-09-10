@@ -58,6 +58,12 @@ const LandingContainer = styled.div`
     width: 75%;
     margin-left: 12.5%;
     padding-bottom: 100px;
+    @media (max-width: 1000px) {
+      padding-top: 60px;
+    }
+    @media (max-width: 800px) {
+      padding-top: 0;
+    }
 `
 
 export default LandingView

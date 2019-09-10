@@ -27,7 +27,7 @@ const StyledNav = styled.div`
     width: 100%; 
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
     z-index: 2;
@@ -35,7 +35,8 @@ const StyledNav = styled.div`
 
     
     padding: 1% 3% 1% 3%;
-    opacity: .9;
+
+   
    
     @media (max-width: 500px) {
         padding-bottom: 50px;
@@ -45,9 +46,9 @@ const StyledNav = styled.div`
     }
     .test {
         display: flex;
-        width: 60%;
+        
         @media (max-width: 800px) {
-            margin-left: -30%;
+            
             align-items: center;
         }
         @media(max-width: 500px) {
@@ -72,10 +73,7 @@ const StyledNav = styled.div`
         }
     }
     img {
-        width: 35%;
-        @media (max-width: 800px) {
-            width: 50%;
-        }
+        width: 200px;
     }
 
 `
