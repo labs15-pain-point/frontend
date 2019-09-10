@@ -79,7 +79,7 @@ const OuterPara = styled.p`
     font-size: 3.5rem;
 `
 const StyledImage = styled.img`
-    width: 100%;
+    width: 50%;
     height: 100%;
     @media(max-width: 1000px) {
         width: 75%;

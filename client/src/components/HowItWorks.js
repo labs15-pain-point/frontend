@@ -129,7 +129,7 @@ const TopTitle = styled.h1`
     color: #880c23;
     font-size: 5rem
     text-shadow: 1px 1px #545454;
-    padding-top: 50px;
+    padding-top: 35px;
 `
 const TopLevelContainer = styled.div`
     font-size: 50px;
@@ -155,8 +155,7 @@ const CodeContainer = styled.div`
 `
 
 const StyledImage = styled.img`
-    width: 200%;
-    height: 200%;
+    width: 50%;
     margin-left: 5%;
     margin-right: 5%
     @media only screen and (max-width: 1250px) {
