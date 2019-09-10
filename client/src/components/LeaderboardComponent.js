@@ -7,9 +7,6 @@ const Leaderboard = props => {
 
     return (
         <div>
-            <div>
-
-            </div>
             <LeaderboardContainer>
                 <h1>
                     Top 20 Generated Descriptions
@@ -43,6 +40,7 @@ const LeaderboardContainer = styled.div`
     margin-left: 18%;
     margin-right: 25%;
     font-size: 2.6rem;
+    padding-top: 35px;
 `
 
 export default Leaderboard
