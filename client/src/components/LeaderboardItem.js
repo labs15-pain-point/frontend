@@ -11,7 +11,7 @@ const LeaderboardItem = props => {
             <StyledRate>
                 <p>
                 Rating: { (props.highScore.bayesrating * 100).toFixed(2) }%
-                </p>
+                </p>                     
             </StyledRate>
             </StyledNum>
             <StyledDescr> 
@@ -58,6 +58,7 @@ const StyledLBoard = styled.div`
     position:relative;
     align-items: center;
     justify-content: space-evenly;
+    z-index:-1;                                   
 `
 
 export default LeaderboardItem
