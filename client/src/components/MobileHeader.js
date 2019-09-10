@@ -30,6 +30,7 @@ const StyledNav = styled.div`
     padding: 1% 3% 1% 3%;
     opacity: 1;
     transition: height 0.2s ease;
+    z-index: 2;
     height: ${props => {
         if (props.openMenu === false) {
             return '100%;'

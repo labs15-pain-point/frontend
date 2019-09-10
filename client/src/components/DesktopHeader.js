@@ -30,6 +30,7 @@ const StyledNav = styled.div`
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+    z-index: 2;
 
 
     

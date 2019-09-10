@@ -45,10 +45,12 @@ import { Motion, spring, presets } from 'react-motion'
                             transform={`translate(${x * 12}, ${x * -7}) rotate(${x * 45}, 7, 26)`} 
                             x1="7" y1="26" x2="89" y2="26" 
                         />
+                        
                         <line 
                             transform={`translate(${x * 12}, ${x * 7}) rotate(${x * -45}, 7, 70)`} 
                             x1="7" y1="70" x2="89" y2="70" 
                         />
+                        
                         <line 
                             transform={`translate(${x * -96})`} 
                             opacity={y} 
