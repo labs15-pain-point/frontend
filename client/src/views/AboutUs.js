@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutMe from '../components/AboutMe'
 
+
 const teamMembers = [
     {
         name: "Michael Bundick",

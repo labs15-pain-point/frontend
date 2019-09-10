@@ -57,14 +57,14 @@ const HowItWorks = props => {
             <ExplanationChunk>
                 <p>
                     To understand how they work, let’s take a look at this terrible description:
-                    <ExplanationChunk>
-                    <code>
+                </p>
+                </ExplanationChunk>
+                <CodeContainer>
+                <code>
                         CITY of Design is a UK company with offices in London, London, London, and Paris. 
                         The company was established in 1864 and is headquartered in London, England.
-                    </code>
-                    </ExplanationChunk>
-                </p>
-            </ExplanationChunk>
+                </code>
+            </CodeContainer>
             <ExplanationChunk>
                 <p>
                     The first filter deals mainly with word frequency. We found that there is a goldilocks zone of 
@@ -111,6 +111,8 @@ const ExplanationChunk = styled.div`
     margin-right: 12.5%
     display: flex;
     text-align: justify;
+    align-items: center;
+    margin-bottom: 50px;
     @media(max-width: 1250px) {
         flex-direction: column;
     } 
@@ -127,9 +129,7 @@ const TopTitle = styled.h1`
     color: #880c23;
     font-size: 5rem
     text-shadow: 1px 1px #545454;
-    @media only screen and (max-width: 1100px) {
-        margin-top: 15%;
-    }
+    padding-top: 50px;
 `
 const TopLevelContainer = styled.div`
     font-size: 50px;
@@ -139,7 +139,19 @@ const TopLevelContainer = styled.div`
         font-size: 5rem
         text-shadow: 1px 1px #545454;
     }
+`
 
+const CodeContainer = styled.div`
+    margin-bottom: 50px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    code{
+        background-color: lightgrey;
+        padding: 10px;
+    }
 `
 
 const StyledImage = styled.img`
