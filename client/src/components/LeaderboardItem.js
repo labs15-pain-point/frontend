@@ -8,8 +8,6 @@ const LeaderboardItem = props => {
                 <p><StyledBold>{props.idx}.</StyledBold> { props.highScore.description }</p>
                 <p><StyledBold>Rating: { (props.highScore.bayesrating * 100).toFixed(2) }%</StyledBold></p>
             </StyledDescr>
-           
-
         </StyledLBoard>
     )
 }
@@ -33,7 +31,6 @@ const StyledLBoard = styled.div`
     z-index:-1; 
     border-bottom: 1px solid black;
     margin-top: 25px;
-                                      
 `
 
 export default LeaderboardItem

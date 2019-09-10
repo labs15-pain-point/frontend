@@ -26,7 +26,7 @@ const SmallExplanation = props => {
                     </Para>
                     
                 </TopContainer>
-                <StyledImage src={companyImage} title="Sit down Karen!" alt=""/>
+                <StyledImage src={companyImage} title="Sit down Karen!" alt="Business person checking email"/>
             </TotalContainer>
 
             
@@ -46,9 +46,7 @@ const TopContainer = styled.div`
     justify-content: space-between;
   
     img {
-        width: 40%;
-       
-       
+        width: 30rem;
         position: relative;
         @media(max-width: 1300px) {
             width: 35%;
@@ -63,7 +61,6 @@ const Para = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    // margin-left: 6%;
     text-align: justify;
     code {
         font-size: 1.6rem;

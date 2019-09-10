@@ -26,7 +26,8 @@ const LeaderboardContainer = styled.div`
         font-weight: bold
         font-size: 3rem;
         text-align:center;
-        font-size:3.5rem;
+        font-size:5rem;
+        text-shadow: 1px 1px #545454;
 
     }
     p {
