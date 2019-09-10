@@ -16,7 +16,9 @@ const VotingComponent = props => {
                     <StyledVote onClick={props.handleDownvote} src={downArrow} alt="down vote"/>
                 </VoteContainer>
             </UpAndDown>
+            <Pass>
             <NeutralButton onClick={props.handlePass}>Pass</NeutralButton>
+            </Pass>
         </div>
         
     )
@@ -29,7 +31,7 @@ const NeutralButton = styled.div`
     border-radius: 4px;
     text-align: center;
     font-size: 1.6rem;
-    margin-left: 45%;
+    alignSelf:center;
     margin-top: 25px;
     cursor: pointer;
     &:hover {
@@ -39,6 +41,11 @@ const NeutralButton = styled.div`
 
 `
 
+const Pass = styled.div`
+    display: flex;
+    justify-content: center;
+    
+`
 
 const StyledVote = styled.img`
     width: 75px;
