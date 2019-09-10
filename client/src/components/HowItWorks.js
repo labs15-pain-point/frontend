@@ -14,7 +14,7 @@ const HowItWorks = props => {
             <HowItWorksContainerRight>
                 <h1>The Purpose</h1>
                 <p>
-                    <img src={purposeImage} title="Pie charts, how do they work?" />
+                    <img src={purposeImage} title="Pie charts, how do they work?" alt="Pie charts, how do they work?"/>
                     The purpose of this project is to help Lambda School generate ideas for their students to work on. 
                     As Lambda School continues to grow, it has become difficult to keep up with idea generation for projects.  
                     That is where we come in. Our team has made use of leading edge technology in text generation to help 
