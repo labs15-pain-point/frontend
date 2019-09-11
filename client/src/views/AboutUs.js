@@ -1,11 +1,14 @@
 import React from 'react'
 import AboutMe from '../components/AboutMe'
+import Tomas from '../imgs/tomasfox.jpg'
+import Michael from '../imgs/michaelbundick.png'
+import Matt from '../imgs/Matt.jpeg'
 
 
 const teamMembers = [
     {
         name: "Michael Bundick",
-        img: '',
+        img: Michael,
         linkedin: 'https://www.linkedin.com/in/michael-bundick/',
         github: 'https://github.com/bundickm',
         about: 'Here is where I would type out an about me'
@@ -29,7 +32,7 @@ const teamMembers = [
     },
     {
         name: "Tomas Fox",
-        img: '',
+        img: Tomas,
         linkedin: 'https://www.linkedin.com/in/tomasfox1/',
         github: 'https://github.com/tomfox1',
         about: 'Here is where I would type out an about me'
@@ -37,7 +40,7 @@ const teamMembers = [
     },
     {
         name: "Matthew Feldman",
-        img: '',
+        img: Matt,
         linkedin: 'https://www.linkedin.com/in/matthew-r-feldman/',
         github: 'https://github.com/matt0418',
         about: 'Here is where I would type out an about me'
