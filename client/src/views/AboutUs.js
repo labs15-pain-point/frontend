@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe'
 import Tomas from '../imgs/tomasfox.jpg'
 import Michael from '../imgs/michaelbundick.png'
 import Matt from '../imgs/Matt.jpeg'
+import Nico from '../imgs/Nico.jpg'
 
 
 const teamMembers = [
@@ -24,7 +25,7 @@ const teamMembers = [
     },
     {
         name: "Nicolas Montoya",
-        img: '',
+        img: Nico,
         linkedin: 'https://www.linkedin.com/in/nico-montoya/',
         github: 'https://github.com/NicoMontoya',
         about: 'Here is where I would type out an about me'
