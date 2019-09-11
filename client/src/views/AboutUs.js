@@ -15,7 +15,7 @@ const teamMembers = [
         img: Michael,
         linkedin: 'https://www.linkedin.com/in/michael-bundick/',
         github: 'https://github.com/bundickm',
-        about: 'Here is where I would type out an about me'
+        about: 'Data scientist with a prior 10 years experience in hospitality management, now living in Los Angeles. Interested in working with natural language processing and using ML help others. When not at a computer you can find me hiking, diving or playing boardgames.'
 
     },
     {
