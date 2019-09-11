@@ -148,9 +148,13 @@ const CodeContainer = styled.div`
     text-align: left;
     display: flex;
     flex-direction: column;
-    code{
+    code {
         background-color: lightgrey;
         padding: 10px;
+    }
+    @media(max-width: 800px) {
+        width: 80%;
+        margin-left: 10%;
     }
 `
 
