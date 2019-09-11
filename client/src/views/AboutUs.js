@@ -40,7 +40,7 @@ const teamMembers = [
         img: Tomas,
         linkedin: 'https://www.linkedin.com/in/tomasfox1/',
         github: 'https://github.com/tomfox1',
-        about: 'Here is where I would type out an about me'
+        about: 'I am a Data Scientist with previous experience in the financial sector. I have worked in projects ranging from creating an AirBnb listing price prediction app, to analyzing onchain data on ERC20 tokens and major cryptocurrencies.'
 
     },
     {
