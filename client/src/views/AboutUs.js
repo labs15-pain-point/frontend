@@ -1,4 +1,6 @@
 import React from 'react'
+import styled from 'styled-components'
+
 import AboutMe from '../components/AboutMe'
 import Tomas from '../imgs/tomasfox.jpg'
 import Michael from '../imgs/michaelbundick.png'
@@ -21,6 +23,7 @@ const teamMembers = [
         img: Daniel,
         linkedin: 'https://www.linkedin.com/in/daniel-harris-45a417176/',
         github: 'https://github.com/veritaem',
+        // about: 'Here is where I would type out an about me'
         about: 'Hello!  I am studying Data Science currently and have projects involving predictive maintenance, political trends, and violence levels in the US.  I love smores, nerding out and gaming with others, and working on interesting questions!'
 
     },
@@ -49,13 +52,21 @@ const teamMembers = [
     }
 ]
 
+const AboutContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+`
+
 const AboutUs = props => {
     return(
-        <div>
+        <AboutContainer>
             {teamMembers.map(member => {
                 return <AboutMe member={member} />
             })}
-        </div>
+        </AboutContainer>
        
     )
     
