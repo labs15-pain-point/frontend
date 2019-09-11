@@ -48,7 +48,7 @@ const teamMembers = [
         img: Matt,
         linkedin: 'https://www.linkedin.com/in/matthew-r-feldman/',
         github: 'https://github.com/matt0418',
-        about: 'Here is where I would type out an about me'
+        about: 'I am a Fullstack Engineer who will soon start working at Wayfair. I enjoy learning new things and pushing myself always. Dogs are pretty cool too.'
     }
 ]
 
