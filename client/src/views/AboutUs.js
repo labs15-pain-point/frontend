@@ -17,10 +17,10 @@ const teamMembers = [
     },
     {
         name: "Daniel Harris",
-        img: '',
+        img: '../imgs/daniel.png',
         linkedin: 'https://www.linkedin.com/in/daniel-harris-45a417176/',
         github: 'https://github.com/veritaem',
-        about: 'Here is where I would type out an about me'
+        about: 'Hello!  I am studying Data Science currently and have projects involving predictive maintenance, political trends, and violence levels in the US.  I love smores, nerding out and gaming with others, and working on interesting questions!'
 
     },
     {
@@ -59,5 +59,6 @@ const AboutUs = props => {
     )
     
 }
+
 
 export default AboutUs
