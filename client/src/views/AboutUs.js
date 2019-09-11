@@ -4,7 +4,7 @@ import Tomas from '../imgs/tomasfox.jpg'
 import Michael from '../imgs/michaelbundick.png'
 import Matt from '../imgs/Matt.jpeg'
 import Nico from '../imgs/Nico.jpg'
-import Daniel from '../imgs/daniel.png'
+import Daniel from '../imgs/daniel.jpeg'
 
 
 const teamMembers = [
