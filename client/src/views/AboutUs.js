@@ -32,7 +32,7 @@ const teamMembers = [
         img: Nico,
         linkedin: 'https://www.linkedin.com/in/nico-montoya/',
         github: 'https://github.com/NicoMontoya',
-        about: 'Here is where I would type out an about me'
+        about: 'I am a Data Scientist in the Lambda program.  This is my second project dealing with NLP. I have a finance background and play around with sports data in my free time.'
 
     },
     {
