@@ -11,6 +11,7 @@ const About = styled.p`
     width: 300px;
     height: 185px;
     text-align: center;
+    margin-bottom: 50px;
 `
 const Container = styled.div`
     display: flex;
