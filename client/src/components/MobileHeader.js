@@ -27,7 +27,7 @@ const StyledNav = styled.div`
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
-    padding: 1% 3% 1% 3%;
+    padding: 1% 3% 2% 3%;
     opacity: 1;
     transition: height 0.2s ease;
     z-index: 2;
