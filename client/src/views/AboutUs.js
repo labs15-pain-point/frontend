@@ -4,6 +4,7 @@ import Tomas from '../imgs/tomasfox.jpg'
 import Michael from '../imgs/michaelbundick.png'
 import Matt from '../imgs/Matt.jpeg'
 import Nico from '../imgs/Nico.jpg'
+import Daniel from '../imgs/daniel.png'
 
 
 const teamMembers = [
@@ -17,7 +18,7 @@ const teamMembers = [
     },
     {
         name: "Daniel Harris",
-        img: '../imgs/daniel.png',
+        img: Daniel,
         linkedin: 'https://www.linkedin.com/in/daniel-harris-45a417176/',
         github: 'https://github.com/veritaem',
         about: 'Hello!  I am studying Data Science currently and have projects involving predictive maintenance, political trends, and violence levels in the US.  I love smores, nerding out and gaming with others, and working on interesting questions!'

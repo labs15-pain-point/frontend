@@ -13,6 +13,7 @@ const AboutMe = props => {
         <div>
             <h3>{props.member.name}</h3>
             <p>{props.member.about}</p>
+            <img src={props.member.img} alt={props.member.name} width='300px' height='300px'/>
             <a href={props.member.linkedin} target='_blank' rel='noopener noreferrer'><ImageLog src={linked} alt=''/></a>
             <a href={props.member.github} target='_blank' rel='noopener noreferrer'><ImageLog src={github} alt=''/></a>
         </div>
