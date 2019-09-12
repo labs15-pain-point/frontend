@@ -13,7 +13,7 @@ const AllCompanyView = props => {
 
     return (
         <div>
-            {leaderboard.length < 1499 ? <Loading>LOADING...</Loading> : <LeaderboardComponent titlePage ={titlePage} leaderboard = { leaderboard } />} 
+            {leaderboard.length < 100 ? <Loading>LOADING...</Loading> : <LeaderboardComponent titlePage ={titlePage} leaderboard = { leaderboard } />} 
         </div>
     )
 }
