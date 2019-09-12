@@ -9,7 +9,7 @@ import styled from 'styled-components'
 const AllCompanyView = props => {
     const LeaderboardURL = "https://ninenineproblems.herokuapp.com/api/leaderboard/all"
     const leaderboard = useGet(LeaderboardURL)
-    const titlePage = 'Top 1500 Companies'
+    const titlePage = 'All 100 Companies'
 
     return (
         <div>
