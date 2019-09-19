@@ -1,7 +1,10 @@
+// imports
 import React from 'react';
 import styled from 'styled-components';
 
 const LeaderboardItem = props => {
+    // takes in our descriptions and assigns them a rating by the bayesrating column
+    // this sorted rating is then used in the LeaderboardComponent
     return (
         <StyledLBoard>
             <StyledDescr> 

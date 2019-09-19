@@ -1,25 +1,28 @@
+// imports
 import React, { useState } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
-
+// functions
 import useGet from '../functions/useGet'
-
+// app
 import SmallExplantion from '../components/SmallExplanation'
 import RandomDescription from '../components/RandomDescription'
 import VotingComponent from '../components/VotingComponent'
 
 const LandingView = props => {
-
+    //every time count changes, we geta  new random description
     const [count, setCount] = useState(0)
 
     const randomURL = "https://ninenineproblems.herokuapp.com/api/random/"
 
+    //gets a random company from the JSON
     const company = useGet(randomURL, count)
 
     const upvoteURL = `https://ninenineproblems.herokuapp.com/api/companies/${company.id}/upvote`
   
     const downvoteURL = `https://ninenineproblems.herokuapp.com/api/companies/${company.id}/downvote`
 
+    // handlers that update the json with the incoming votes
     const handleUpvote = (e) => {
         e.preventDefault()
         axios.put(upvoteURL)

@@ -1,10 +1,12 @@
+// imports
 import React from 'react';
 import LeaderboardItem from './LeaderboardItem'
 import styled from 'styled-components'
 
 
 const Leaderboard = props => {
-
+    // returns a map of the descriptions + their place in list, sorted by rating
+    // uses LeaderboardItem 
     return (
         <div>
             <LeaderboardContainer>
