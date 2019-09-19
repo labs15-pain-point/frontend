@@ -1,8 +1,10 @@
+// imports
 import React from 'react'
 import downArrow from '../imgs/DownvoteRed.png'
 import upArrow from '../imgs/UpvoteGreen.png'
 import styled from 'styled-components'
 
+// creates a way to send info to the voting handlers
 const VotingComponent = props => {
     return (
         <div>

@@ -1,3 +1,4 @@
+// imports
 import React from 'react';
 import { Link } from 'react-router-dom'
 import LeaderboardItem from './LeaderboardItem'
@@ -5,6 +6,8 @@ import styled from 'styled-components'
 
 
 const Leaderboard = props => {
+    // returns a map of the descriptions + their place in list, sorted by rating
+    // uses LeaderboardItem 
     return (
         <TotalContainer>
             <LeaderboardContainer>
