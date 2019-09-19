@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const RandomDescription = props => {
     return (
         <Container>
-            <StyledQuestion>Could you build a project or company from the following description?</StyledQuestion>
+            <StyledQuestion>Could you build a Lambda Labs or Build Week project from the following description?</StyledQuestion>
             <Description>
                 {props.company.description}
             </Description>

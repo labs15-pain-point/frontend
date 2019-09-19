@@ -8,6 +8,7 @@ import LandingView from './views/LandingView'
 import HowItWorksView from './views/HowItWorksView'
 import AboutUs from './views/AboutUs'
 import LeaderboardView from './views/LeaderboardView'
+import AllCompanyView from './views/AllCompanyView'
 import Header from './components/Header'
 
 function App(props) {
@@ -18,6 +19,7 @@ function App(props) {
       <Route path = "/howitworks" component={HowItWorksView}/>
       <Route path='/about' component={AboutUs}/>
       <Route path ='/leaderboard' component={LeaderboardView}/>
+      <Route path ='/all' component={AllCompanyView}/>
     </div>
   );
 }
